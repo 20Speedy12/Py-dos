@@ -1,2 +1,4 @@
 # Some-what-Dos-python-
-A basic python program that kind of is like dos (it comes with other programs (please comment or something what you want to be added)
+A basic Python program that kind of is like dos (it comes with other programs)
+(please comment or something about what you want to be added)
+All files must be in the same directory! 
