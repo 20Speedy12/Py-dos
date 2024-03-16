@@ -18,6 +18,7 @@ os.system('cls' if os.name == 'nt' else 'clear')
 print("initializing somewhat dos")
 time.sleep(1)
 os.system('cls' if os.name == 'nt' else 'clear')
+call(["python","Update.py"])
 print('type dir to see files, type a file name to launch it, type exit to exit,')
 
 
