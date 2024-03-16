@@ -9,8 +9,8 @@ currently being supported with security updates.
 | ------- | ------------------ |
 |         |                    |
 |         |                    |
-|         |                    |
-| 1.0     |                    |
+| 1.1     |idk what to put here|
+| 1.2     |                    |
 
 ## Reporting a Vulnerability
  Report it/ comment it 
