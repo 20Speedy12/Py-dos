@@ -2,7 +2,7 @@ import subprocess
 import os
 import time
 from subprocess import call
-
+import webbrowser
 
 
 echo = print
@@ -51,26 +51,17 @@ while (convoQue <= 5):
     call(["python", "tictactoe.py"])
   
   if UserInput == 'dir':
-     print('chatbot.py tictactoe.py Win_Chrome.exe Wind_Edge.exe Win_FireFox.exe')
+     print('chatbot.py tictactoe.py browser.exe')
 
-
+     if UserInput == 'browser.exe':
+       webbrowser.open('https://google.com', new=2)
  
   
   if UserInput == 'help':
     print('type dir to see files, type a file name to launch it, type exit to exit, and comment your ideas for files')
 
-  if UserInput == 'Win_Chrome.exe':
-    chrome = "C:\Program Files\Google\Chrome\Application\chrome.exe"
+  
 
-    subprocess.Popen(chrome)
-
-  if UserInput == 'Win_Edge.exe':
-    edge = " C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-    subprocess.Popen(edge)
-
-  if UserInput == 'Win_FireFox.exe':
-    firefox = "C:\Program Files\Mozilla Firefox\firefox.exe"
-  subprocess.Popen(firefox)
 #amogus
 
 
